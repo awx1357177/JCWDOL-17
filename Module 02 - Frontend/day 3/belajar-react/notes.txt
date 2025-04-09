@@ -1,0 +1,17 @@
+penulisan component wajib diawali huruf besar
+framework nextjs flow. rootLayout -> children -> page.tsx -> component (export default)
+component merupakan kepingan ui
+component dipanggil menggunakan tag element html
+setiap component wajib return sebuah tag html
+return dalam component hanya boleh 1 TAG SAJA!
+parameter di dalam function component disebut sebagai props
+props wajib dalam bentuk object
+
+--route = rute halaman page 
+buat folder dalam folder app (contoh about)
+di dalam folder about kita buat page.tsx
+page.tsx -> export default function (component)
+
+class css menggunakan attr/prop className 
+inline style wajib berbentuk object 
+key inline style dalam bentuk camelCase. 

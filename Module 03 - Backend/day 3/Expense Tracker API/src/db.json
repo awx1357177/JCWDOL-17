@@ -1,0 +1,67 @@
+{
+  "expenses": [
+    {
+      "id": 1,
+      "title": "Makan Gado-Gado",
+      "category": "food",
+      "type": "expense",
+      "date": "2025-01-01",
+      "nominal": 50000
+    },
+    {
+      "id": 2,
+      "title": "Makan Indomie",
+      "category": "food",
+      "type": "expense",
+      "date": "2025-01-01",
+      "nominal": 15000
+    },
+    {
+      "id": 3,
+      "title": "naik gojek ke monas",
+      "category": "transport",
+      "type": "expense",
+      "date": "2025-01-02",
+      "nominal": 30000
+    },
+    {
+      "id": 4,
+      "title": "gajian bulan januari",
+      "category": "salary",
+      "type": "income",
+      "date": "2025-01-02",
+      "nominal": 1000000
+    },
+    {
+      "title": "Makan nasgor",
+      "category": "food",
+      "type": "expense",
+      "date": "2025-01-01",
+      "nominal": 30000,
+      "id": 6
+    },
+    {
+      "title": "Makan batagor",
+      "category": "food",
+      "type": "expense",
+      "date": "2024-01-02",
+      "nominal": 10000,
+      "id": 7
+    },
+    {
+      "title": "Hasil jual rtx 5090",
+      "category": "gaming",
+      "type": "income",
+      "date": "2025-01-02",
+      "nominal": 50000000,
+      "id": 8
+    },
+    {
+      "title": "Hasil jual rtx 5090",
+      "type": "income",
+      "date": "2025-01-02",
+      "nominal": 50000000,
+      "id": 9
+    }
+  ]
+}

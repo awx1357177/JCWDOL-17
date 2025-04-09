@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "test@mail.com",
+      "password": "password",
+      "image": "https://cdn.sortiraparis.com/images/1001/98390/1014564-avatar-le-dernier-maitre-de-l-air-la-serie-netflix-en-live-action-devoile-sa-bande-annonce-finale.jpg",
+      "name": "user-test"
+    }
+  ]
+}

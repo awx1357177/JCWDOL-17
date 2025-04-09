@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzMzNjgyLzNlMjU2NWRhZDdlMGQ2OTZjM2UxMDdkMzdiMWEzMTM0LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTQwMH19fQ==",
+      "product_name": "New Balance 530 Ivory",
+      "description": "If a dog chews shoes whose shoes does he choose?",
+      "price": 200,
+      "slug": "new-balance-530-ivory"
+    },
+    {
+      "id": 2,
+      "img": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzM3MjUwL2I4ZTYzYTA3ZTIxYzZjZmUzOGUyZTMyZjk4OGMxZjg3LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTQwMH19fQ==",
+      "product_name": "New Balance 2002R Grey",
+      "description": "If a dog chews shoes whose shoes does he choose?",
+      "price": 216,
+      "slug": "new-balance-2002r-grey"
+    },
+    {
+      "id": 3,
+      "img": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzMxNjQ3L2UxMTk3ZGE4YTlkODQ2ZmVmOWEwNjYzMGIzMTBkZTc2LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTQwMH19fQ==",
+      "product_name": "New Balance 530 White Silver Navy",
+      "description": "If a dog chews shoes whose shoes does he choose?",
+      "price": 220,
+      "slug": "new-balance-530-silver-navy"
+    },
+    {
+      "img": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzM2NTExLzYzY2M5NDE4MjM0MzQyZWQyOTM2NGFkZTFjZGQzZWNiLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTQwMH19fQ==",
+      "product_name": "New Balance 1906R White Gold edited",
+      "description": "If a dog chews shoes whose shoes does he choose?",
+      "price": 400,
+      "id": 4,
+      "slug": "new-balance-1906r-white-gold"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "jordan@mail.com",
+      "password": "123456"
+    },
+    {
+      "email": "test@mail.com",
+      "password": "halo123",
+      "id": 2
+    },
+    {
+      "email": "test2@mail.com",
+      "password": "halo123",
+      "id": 3
+    },
+    {
+      "email": "test3@mail.com",
+      "password": "halo123",
+      "id": 4
+    },
+    {
+      "email": "test100@mail.com",
+      "password": "password123",
+      "id": 5
+    },
+    {
+      "email": "test100@mail.com",
+      "password": "password123",
+      "id": 6
+    },
+    {
+      "email": "test101@mail.com",
+      "password": "password123",
+      "id": 7
+    },
+    {
+      "email": "wegof38685@adosnan.com",
+      "password": "password",
+      "id": 8
+    }
+  ]
+}

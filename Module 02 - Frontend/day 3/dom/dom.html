@@ -1,0 +1,53 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM (DOCUMENT OBJECT MODEL)</title>
+    <script>
+      //   const newParagraph = document.createElement("p"); // <p></p>
+      //   newParagraph.textContent = "this is new paragraph"; //<p>this is new paragraph</p>
+      //   const parentElement = document.getElementById("parentElement"); //null
+      //   parentElement.appendChild(newParagraph); //Uncaught TypeError: Cannot read properties of null (reading 'appendChild')
+      function updateText() {
+        const element = document.getElementById("myElement"); //access sebuah element lewat id. setelah berhasil mengakses id tersebut kita mendapatkan sebuah object
+        element.innerText = "Updated Text"; //element myId mengalami update di dalam contentnya
+        // element.innerHTML = "<p>hiii</p>";
+        // element.textContent = "new text content";
+      }
+
+      function removeMe() {
+        const elementToRemove = document.getElementById("elementToRemove"); // access object dari id elementToRemove
+        const parentElement = elementToRemove.parentNode; //menambahkan elementToRemove ke dalam container(parent). parentnya adalah "body"
+        parentElement.removeChild(elementToRemove); //karena elementToRemove berada di dalam parentElement. gunakan method removeChild untuk hapus element "elementToRemove"
+
+        //elementToRemove.remove(); alter untuk remove langsung element
+      }
+    </script>
+  </head>
+  <body>
+    <h1 id="myElement">Original Text</h1>
+    <div id="parentElement">
+      <h1>first child</h1>
+    </div>
+    <button onclick="updateText()">Update Text</button>
+    <br />
+    <button id="elementToRemove" onclick="removeMe()">remove me</button>
+    <button id="myButton">myButton</button>
+  </body>
+  <script>
+    const newParagraph = document.createElement("p"); //<p></p>
+    newParagraph.style.color = "red"; //menambahkan style dari DOM
+    newParagraph.style.fontSize = "20px"; //menambahkan style dari DOM
+    newParagraph.textContent = "this is new paragraph"; // <p>this is new paragraph</p>
+    const parentElement = document.getElementById("parentElement"); // <div><p>this is new paragraph</p></div>
+    parentElement.appendChild(newParagraph);
+
+    const myButton = document.getElementById("myButton");
+    myButton.addEventListener("click", function () {
+      alert("button clicked");
+    });
+  </script>
+</html>

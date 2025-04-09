@@ -1,0 +1,8 @@
+get = menarik data
+post = membuat data 
+delete = menghapus data
+patch = mengedit data secara partial per key
+put = menimpa data yang sudah ada
+
+get by id ->  localhost:2000/products/1 
+filter by product_name -> localhost:2000/products?product_name_like=530

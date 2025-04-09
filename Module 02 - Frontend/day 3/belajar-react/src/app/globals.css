@@ -1,0 +1,22 @@
+/** @format */
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+.blue {
+  color: blue;
+}
+
+#componentA {
+  color: green;
+}
+
+a[href] {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 10px;
+}

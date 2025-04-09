@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product_name": "sepeda pinarello",
+      "price": 13000000
+    },
+    {
+      "id": 2,
+      "product_name": "sepeda brompton",
+      "price": 30000000
+    },
+    {
+      "id": 3,
+      "product_name": "sepeda roda 3 famili",
+      "price": 100000
+    },
+    {
+      "id": 4,
+      "product_name": "sepeda fixie",
+      "price": 1500000
+    },
+    {
+      "id": 5,
+      "product_name": "sepeda Wimcycle hebohhh",
+      "price": 700000
+    },
+    {
+      "id": 6,
+      "product_name": "sepeda UNITED",
+      "price": 750000
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("DATABASE_URL")
+  shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+}
+
+model Branch {
+  id        Int      @id @default(autoincrement())
+  name      String
+  address   String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  classes   Class[]
+
+  @@map("branches") //nama table
+}
+
+model Class {
+  id        Int      @id @default(autoincrement())
+  name      String   @db.VarChar(50)
+  startDate DateTime
+  endDate   DateTime
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  Branch   Branch? @relation(fields: [branchId], references: [id])
+  branchId Int?
+
+  @@map("classes")
+}
+
+model Student {
+  id         Int      @id @default(autoincrement())
+  first_name String   @db.VarChar(50)
+  last_name  String   @db.VarChar(50)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  Address    Address?
+
+  @@map("students")
+}
+
+model Address {
+  id          Int     @id
+  address     String
+  city        String
+  postal_code Int
+  student     Student @relation(fields: [id], references: [id])
+
+  @@map("addresses")
+}
+
+// npx prisma migrate dev
+
+// one to many
